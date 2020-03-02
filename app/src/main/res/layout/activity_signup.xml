@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity">
+
+    <include layout="@layout/toolbar_signup" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="54dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingHorizontal="40dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="40dp">
+
+        <EditText
+            android:id="@+id/edtSignupName3"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/orange_border"
+            android:ems="10"
+            android:hint="이름"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColorHint="#c8c5ff"
+            android:textSize="12dp" />
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edtSignupID3"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/orange_border"
+                android:ems="10"
+                android:hint="아이디"
+                android:inputType="textVisiblePassword"
+                android:paddingLeft="15dp"
+                android:textColorHint="#c8c5ff"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="   " />
+
+            <Button
+                android:id="@+id/btnSignupID_check3"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="62dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/border_fill"
+                android:text="중복확인"
+                android:textColor="#FFFFFF"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edtSignupPW3"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/orange_border"
+            android:ems="10"
+            android:hint="비밀번호"
+            android:inputType="textVisiblePassword"
+            android:paddingLeft="15dp"
+            android:textColorHint="#c8c5ff"
+            android:textSize="12dp" />
+
+        <EditText
+            android:id="@+id/edtSignupPW_check3"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/orange_border"
+            android:ems="10"
+            android:hint="비밀번호 확인"
+            android:inputType="textVisiblePassword"
+            android:paddingLeft="15dp"
+            android:textColorHint="#c8c5ff"
+            android:textSize="12dp" />
+
+        <EditText
+            android:id="@+id/edtSignupNum3"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/orange_border"
+            android:ems="10"
+            android:hint="전화번호"
+            android:inputType="phone"
+            android:paddingLeft="15dp"
+            android:textColorHint="#c8c5ff"
+            android:textSize="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="30dp">
+
+            <Button
+                android:id="@+id/btnSignupSubmit3"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="141dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/border_fill"
+                android:text="가입하기"
+                android:textColor="#FFFFFF"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

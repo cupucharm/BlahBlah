@@ -1,0 +1,16 @@
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimarypurple">#837cfe</color>
+    <color name="colorPrimaryDeeppurple">#483fe8</color>
+    <color name="colorPrimaryOrange">#ffa163</color>
+    <color name="mdred">#ff8080</color>
+    <color name="mdyellow">#ffe180</color>
+    <color name="mdpurple">#baa9ff</color>
+    <color name="mdgreen">#bdff80</color>
+    <color name="mdgray">#a1a1a1</color>
+    <color name="white">#ffffff</color>
+    <color name="bg_gradient_start">#31244e</color>
+    <color name="bg_gradient_end">#6b394c</color>
+</resources>

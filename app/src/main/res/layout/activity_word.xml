@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar_basic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="단어장 목록"
+        android:gravity="center_horizontal" />
+
+    <ListView
+        android:id="@+id/listView2_3"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:choiceMode="multipleChoice"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom">
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryOrange"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:id="@+id/add_3"
+                android:text="추가"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryOrange"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:id="@+id/del_3"
+                android:text="삭제"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

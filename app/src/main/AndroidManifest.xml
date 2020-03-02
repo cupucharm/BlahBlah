@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cookandroid.blahblar">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".VideoListActivity" />
+        <activity android:name=".VideoLearnActivity" />
+        <activity android:name=".ShadowingActivity" />
+        <activity android:name=".ShadowingGP" />
+        <activity android:name=".ShadowingIT" />
+        <activity android:name=".ShadowingSS" />
+        <activity android:name=".ShadowingMP" />
+        <activity android:name=".ShadowingTS" />
+        <activity android:name=".ShadowingBS" />
+        <activity android:name=".ShadowingBK" />
+        <activity android:name=".ChatbotActivity" />
+        <activity android:name=".CommunityActivity" />
+        <activity android:name=".ReviewActivity" />
+        <activity android:name=".ReviewGraphActivity" />
+        <activity android:name=".ReviewWordActivity" />
+        <activity android:name=".ReviewWordGP" />
+        <activity android:name=".ReviewWordIT" />
+        <activity android:name=".ReviewWordSS" />
+        <activity android:name=".ReviewWordMP" />
+        <activity android:name=".ReviewWordTS" />
+        <activity android:name=".ReviewWordBS" />
+        <activity android:name=".ReviewWordBK" />
+        <activity android:name=".ReviewQuestionActivity" />
+        <activity android:name=".ReviewQuestionGP" />
+        <activity android:name=".ReviewQuestionIT" />
+        <activity android:name=".ReviewQuestionSS" />
+        <activity android:name=".ReviewQuestionMP" />
+        <activity android:name=".ReviewQuestionTS" />
+        <activity android:name=".ReviewQuestionBS" />
+        <activity android:name=".ReviewQuestionBK" />
+        <activity android:name=".ScriptViewActivity" />
+        <activity android:name=".ScriptPK" />
+        <activity android:name=".ScriptSS" />
+        <activity android:name=".ScriptIT" />
+        <activity android:name=".ScriptGP" />
+        <activity android:name=".ScriptMP" />
+        <activity android:name=".ScriptTS" />
+        <activity android:name=".ScriptBS" />
+        <activity android:name=".ScriptBK" />
+        <activity android:name=".VideoLearnGP" />
+        <activity android:name=".VideoLearnMP" />
+        <activity android:name=".VideoLearnTS" />
+        <activity android:name=".VideoLearnBS" />
+        <activity android:name=".VideoLearnBK" />
+        <activity android:name=".VideoLearnIT" />
+        <activity android:name=".VideoLearnSS" />
+    </application>
+</manifest>
